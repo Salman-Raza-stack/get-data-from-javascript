@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>You are seeing all repositories</h1>
+      <h1>You are seeing all repositories Now</h1>
       <ul>
         {repos.map((repoObj, ind) => {
           return <li key={ind}>{repoObj.name}</li>;
